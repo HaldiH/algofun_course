@@ -197,6 +197,14 @@ Avantages:
 - exécution rapide
 - optimisations possibles
 
+Exemples:
+
+<v-click>
+
+- C, C++, Rust, Go, Java, ...
+
+</v-click>
+
 </div>
 <div>
 
@@ -222,3 +230,11 @@ Inconvénients:
 
 - lent
 - détections d'erreurs à l'exécution
+
+Exemples:
+
+<v-click>
+
+- Python, JavaScript, PHP, Ruby, ...
+
+</v-click>
