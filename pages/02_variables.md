@@ -295,3 +295,25 @@ Ce code affiche:
 Hello
 World
 ```
+
+
+## Récupération de l'entrée utilisateur
+
+Pour récupérer une valeur de l'utilisateur, on utilise une fonction spécifique du langage de programmation.
+
+Par exemple, en Python:
+
+```python
+x = input("Entrez un nombre: ")
+print("Vous avez entré", x)
+```
+
+Attention: la fonction `input` renvoie une chaîne de caractères, même si l'utilisateur entre un nombre!
+
+Pour utiliser la valeur comme un nombre, il faut la convertir explicitement.
+
+```python
+x = int(input("Entrez un nombre: "))
+y = x + 1
+print("Le nombre suivant est", y)
+```
