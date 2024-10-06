@@ -37,29 +37,25 @@ src: pages/02_variables.md
 ---
 
 ---
-src: pages/03_assignments.md
+src: pages/03_control_structures.md
 ---
 
 ---
-src: pages/04_control_structures.md
+src: pages/04_iterative_structures.md
 ---
 
 ---
-src: pages/05_iterative_structures.md
+src: pages/05_tables.md
 ---
 
 ---
-src: pages/06_tables.md
+src: pages/06_functions.md
 ---
 
 ---
-src: pages/07_functions.md
+src: pages/07_algorithms_to_programs.md
 ---
 
 ---
-src: pages/08_algorithms_to_programs.md
----
-
----
-src: pages/09_project.md
+src: pages/08_project.md
 ---

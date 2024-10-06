@@ -38,6 +38,62 @@ Par exemple:
 
 ---
 
+## Déclaration de variables
+
+Pour déclarer une variable, on doit spécifier son nom, et éventuellement son type.
+
+Par exemple, en C:
+
+```c
+int x; // x est un entier
+char c; // c est un caractère
+float f; // f est un réel
+```
+
+En Python, le type de la variable est inféré automatiquement, lors de l'assignation de la valeur:
+
+```python
+x = 3 # x est un entier
+c = 'a' # c est un caractère
+f = 3.14 # f est un réel
+```
+
+---
+
+## Assignation de variables
+
+**Définition**: Assigner une valeur à une variable signifie lier un nom (une variable) à une valeur.
+
+À l'inverse de la déclaration, qui crée le conteneur, l'assignation remplit le conteneur avec une valeur.
+
+Par exemple:
+
+$$x \leftarrow 3$$
+
+On stocke dans la variable $x$ la valeur 3.
+
+On peut ensuite utiliser la valeur de la variable $x$ dans des calculs.
+
+---
+
+### Assignation (suite)
+
+On peut assigner soit un littéral (p.ex. 42, "Hello", ...), soit une expression.
+
+Par exemple:
+
+$$x \leftarrow 3$$
+
+$$y \leftarrow x + 1$$
+
+Dans $y$ on stocke le résultat de l'exécution de l'expression $x + 1$.
+
+L'expression peut contenir autant de variables et de littéraux que l'on veut, tant qu'elle reste valable.
+
+Attention aux types!
+
+---
+
 ## Types de variables (suite)
 
 Détermine la taille de l'espace de stockage nécessaire.
