@@ -296,6 +296,7 @@ Hello
 World
 ```
 
+---
 
 ## Récupération de l'entrée utilisateur
 
