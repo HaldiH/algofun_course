@@ -65,7 +65,7 @@ graph TD
 
 ---
 
-## Définition
+## Définition: Algorithme
 
 Spécification précise et non ambigüe d'une séquence d'opérations à effectuer pour résoudre un problème.
 
@@ -85,9 +85,10 @@ Analyse d'un algorithme:
 - Efficace?
 - Performant?
 
-- Types d'algorithmes:
-  - déterministes: même entrée $\rightarrow$ même sortie
-  - non-déterministes: comportement aléatoire
+### Types d'algorithmes
+
+- déterministes: même entrée $\rightarrow$ même sortie
+- non-déterministes: comportement aléatoire
 
 ---
 
