@@ -102,6 +102,8 @@ do {
 
 Ceci est particulièrement utile pour les menus interactifs.
 
+---
+
 ## Résumé
 
 - Les boucles permettent de répéter un bloc d'instructions.
