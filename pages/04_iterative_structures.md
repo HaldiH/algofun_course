@@ -103,6 +103,55 @@ do {
 Ceci est particulièrement utile pour les menus interactifs.
 
 ---
+layout: section
+---
+
+## Exemples d'algorithmes utilisant des boucles
+
+---
+
+### Algorithme d'Euclide
+
+L'[algorithme d'Euclide](https://fr.wikipedia.org/wiki/Algorithme_d%27Euclide) permet de calculer le plus grand commun diviseur (PGCD) de deux entiers. Par exemple, le PGCD entre 60 et 25 est 5.
+
+![Algorithme d'Euclide](/images/algo_euclide.png)
+
+---
+
+### Algorithme d'Euclide (suite)
+
+En Python, on peut implémenter l'algorithme d'Euclide de la manière suivante:
+
+```python
+a, b = 60, 25
+r = a % b
+print(r)
+
+while r != 0:
+    a, b = b, r
+    r = a % b
+    print(r)
+
+print('PGCD:', b)
+```
+
+---
+
+### Somme d'entiers successifs
+
+$$somme(n) = 1 + 2 + 3 + \ldots + n = \sum_{i=1}^{n} i$$
+
+En Python, on peut calculer la somme des entiers de 1 à 100 de la manière suivante:
+
+```python
+n = 100
+somme = 0
+for i in range(1, n + 1):
+    somme += i
+print(somme)
+```
+
+---
 
 ## Résumé
 
